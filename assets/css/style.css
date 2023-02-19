@@ -339,16 +339,15 @@ footer {
         padding: 0 20px;
     }
 
-    #photo {
-        column-count: 3;
-    }
+   #photos {
+    column-count: 3;
+   }
 
 }
 
-
-/* For small screen sizes 800px and down*/
+/* For small screen sizes 800px and below*/
 @media screen and (max-width: 800px) {
-   #photo { 
-    column-count: 2;
-    }
+    #photos {
+        column-count: 2;
+       } 
 }
